@@ -1,7 +1,7 @@
 python3.11 -m venv virt.env
 source virt.env/bin/activate
 
-pip freeze requirements.txt
+pip freeze > requirements.txt
 
 brew services start mysql@8.0
 sudo mysql
